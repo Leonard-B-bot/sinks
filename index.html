@@ -5,13 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinks R Us - Old School Website</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color:lightsalmon;
+            text-align: center;
+            padding: 10x;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sidebar {
+            background-color:peru;
+            color: white;
+            width: 20%;
+            padding: 10px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+        .content {
+            width: 80%;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .content div {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #cccccc;
+        }
+        .content img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: darkolivegreen;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <table width="100%" cellspacing="0" cellpadding="0" border="0">
-        <tr>
-            <td colspan="2" style="background-color: #cccccc; text-align: center; padding: 10px;">
-                <h1>Sinks R Us</h1>
-                <p>Your one-stop shop for all types of sinks</p>
+    <header>
+        <h1>Sinks R Us</h1>
+        <p>Your one-stop shop for all types of sinks</p>
+    </header>
+
+    <div class=""containter">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Types of Sinks</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div>
+                <img src="images/sink1.jpg" alt="Sink Image">
+                <h2>About Our Sinks</h2>
+            </div>
+        </div>
             </td>
         </tr>
         <tr>
