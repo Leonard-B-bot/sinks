@@ -1,8 +1,9 @@
 /* Outdated CSS */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2f4f4f;
+
 }
 
 h1 {
@@ -34,10 +35,7 @@ table {
     border-collapse: collapse;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+
 
 .container {
     display: flex;
@@ -45,8 +43,8 @@ body {
 }
 
 .sidebar {
-    background-color: perus;
-    color: white;
+    background-color: #253b3b;
+    color: rgb(0, 0, 0);
     width: 20%;
     padding: 10px;
 }
@@ -57,8 +55,24 @@ body {
 }
 
 .sidebar a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+}
+
+.sidebar ul li a {
+    background-color: peru;
+    color: white;
+    padding:10px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: darkorange;
 }
 
 .content {
@@ -66,7 +80,7 @@ body {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px
+    gap: 10px;
 }
 
 .content div {
@@ -78,6 +92,14 @@ body {
 .content img {
     width: 100%;
     height: auto;
+}
+
+.content h2, .content p {
+    background-color: rgba (255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1)
 }
 
 footer {
