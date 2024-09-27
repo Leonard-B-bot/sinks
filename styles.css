@@ -33,3 +33,55 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    background-color: perus;
+    color: white;
+    width: 20%;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.content div {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: darkolivegreen;
+    text-align: center;
+    padding: 10px;
+}
